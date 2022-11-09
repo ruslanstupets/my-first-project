@@ -1,1 +1,62 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+body{
+	font-family:'Lato' , sans-serif;
+	color: #424551;
+	font-size: 16px; 
+}
+/* header style start */
+.header{
+	padding: 20px 0;
+}
+
+.container{
+	max-width: 1260px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.header 
+.container {
+	display: flex;
+	align-items: center;
+	gap: 60px;
+}
+
+.menu {
+	flex-grow: 1; 
+}
+
+.menu__list {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap:40px;
+	row-gap: 10px;
+}
+
+.menu__link {
+	font-weight: 700;
+}
+
+.header__sign{
+	flex-shrink: 0;
+	align-items: center;
+	gap: 36px;
+	flex-wrap: wrap;
+}
+.header__sing--button{
+margin-right: 36px;
+}
+.header__sing--in{
+	background: url('../img/icon/person.svg') left no-repeat;
+	padding-left: 24px;
+}
+
+.header__sing--in, 
+.header__sing--up{
+	font-weight: 700;
+	line-height: 1.25;
+}
+
+/* header style end */
