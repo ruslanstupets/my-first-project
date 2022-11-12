@@ -355,11 +355,22 @@ margin-right: 36px;
 }
 
 .information--card__content{
-  max-width: 332px;
   padding: 32px;
 }
 
 .badge{
-  display: block;
+  display:block;
+  margin-bottom: 20px;
+  width: 79px;
+  height: 23px;
 }
+
+.information--card__text{
+display: block;
+margin-bottom: 20px;
+width: 322px;
+height: 60px;
+
+}
+
 /* courses style start */

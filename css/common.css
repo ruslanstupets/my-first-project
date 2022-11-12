@@ -80,3 +80,72 @@ h2.title{
     line-height: 130%;
     color: #1E212C;
 }
+/* title end */
+
+/* ! card-content start */
+/* badge start */
+.bg--success{
+	background: #03CEA4;
+  color: #FFFFFF;
+  font-size: 14px;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.bg--warning{
+	background: #F89828;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.bg--info{
+	background: #5A87FC;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.bg--pink{
+	background: #F52F6E;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+/* badge end */
+
+/*?card-content-tatle srart */
+.text--black{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+}
+/*?card-content-tatle end */
+
+/* price start */
+.price--red{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FF4242;
+  text-align: center;
+}
+/* price end */
+
+/* author start */
+.author--grey{
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: #787A80;
+text-align: center;
+}
+/* author end */
+/* ! card-content end */
