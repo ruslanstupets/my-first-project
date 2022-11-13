@@ -366,11 +366,147 @@ margin-right: 36px;
 }
 
 .information--card__text{
-display: block;
-margin-bottom: 20px;
-width: 322px;
-height: 60px;
+  display: block;
+  margin-bottom: 20px;
+  width: 322px;
+  height: 60px;
+}
+/* courses style start */
 
+/* benefits style start */
+.benefits{
+  padding-bottom: 200px;
 }
 
-/* courses style start */
+.benefits__heiding{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+.tabs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+.tabs__link--star{
+  border: 1px solid #FF3F3A;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #FF3F3A;
+  padding: 10px 72px 10px 98px;
+  position: relative;
+}
+
+.tabs__link--star::before{
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 74px;
+  background: url(../img/icon/tab/star.svg) no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.tabs__link--like{
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #9A9CA5;
+  padding: 10px 68px 10px 94px;
+  position: relative;
+}
+
+.tabs__link--like::before{
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 70px;
+  background: url(../img/icon/tab/like.svg) no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.tabs__link--layouts{
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #9A9CA5;
+  padding: 10px 70px 10px 96px;
+  position: relative;
+}
+
+.tabs__link--layouts::before{
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 72px;
+  background: url(../img/icon/tab/layouts.svg) no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.tabs__link--chat{
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 160%;
+  color: #9A9CA5;
+  padding: 10px 99px 10px 125px;
+  position: relative;
+}
+
+.tabs__link--chat::before{
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 101px;
+  background: url(../img/icon/tab/chat.svg) no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.practice{
+display: flex;
+justify-content: space-between;
+}
+
+.practice__text{
+  width: 495px;
+  height: 196px;
+  margin-top: 180px;
+}
+
+.practice__text--title{
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 130%;
+  color: #1E212C;
+  margin-bottom: 24px;
+}
+
+.practice__text--desk{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+
+.practice img{
+  max-width: 100%;
+}
+
+.practice--illustration{
+  margin-top: 60px;
+}
+
+
+/* benefits style end */
