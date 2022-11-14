@@ -42,7 +42,7 @@
 	border: 1px solid #FF3F3A;
 	color:#FF3F3A;
 	padding: 15px 40px;
-		border-radius: 5px;
+	border-radius: 5px;
 	transition: all 0.3s ease 0s;
 }
 .button--border:hover{	
@@ -64,6 +64,21 @@
 		background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
 }
 
+.button--view{
+	background: transparent;
+	position: relative;
+	border: 1px solid #FF3F3A;
+	color:#FF3F3A;
+	padding: 12px 40px;
+	border-radius: 5px;
+	transition: all 0.3s ease 0s;
+}
+
+.button--view:hover{	
+	color: #fff;
+	border: 1px solid #FF3F3A;
+	background-color: #FF3F3A;
+}
 /* title */
 h6.title{
 	font-weight: 700;
