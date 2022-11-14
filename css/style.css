@@ -371,6 +371,28 @@ margin-right: 36px;
   width: 322px;
   height: 60px;
 }
+
+.information--card__price{
+  position: relative;
+  margin-right: 8px;
+}
+
+.informatio--card__author{
+margin-left: 8px;
+}
+
+.information--card__price::after{
+  content: "";
+  background:#787A80;
+  position: absolute;
+  top: 12px;
+  width: 16px;
+  height: 0px;
+  border: 1px solid #787A80;
+  transform: rotate(90deg);
+  /* width: 2px;
+  height: 70%; */
+}
 /* courses style start */
 
 /* benefits style start */
