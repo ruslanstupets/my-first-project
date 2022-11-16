@@ -673,3 +673,47 @@ color: #1E212C;
   line-height: 150%;
 }
 /* events style end */
+
+/* certificate style srat */
+
+/* ? маю питтаня  по цьому блоці з сертифікатом  чи правельно з позіцієнував*/
+
+.wrapper{
+  position: relative;
+  padding-top: 120px;
+}
+.certificate__heading {
+  max-width: 392px;
+  
+}
+.certificate__heading--caption {
+  padding-bottom: 8px;
+}
+
+.certificate__heading--text {
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  margin-top: 80px;
+  margin-bottom: 32px;
+}
+
+.brend__link:not(:last-child){
+margin-right: 30px;
+}
+
+.certificate__block{
+  /* padding-top: 120px;
+  margin-left: 91px; */
+  content: " ";
+  position: absolute;
+  top: 120px;
+  left: 451px;
+  margin-left: 30px;
+}
+
+.certificate__block img{
+  max-width: 705px;
+  height: 500px;
+}
+/* ? маю питтаня  по цьому блоці з сертифікатом */
