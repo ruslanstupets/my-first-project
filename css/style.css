@@ -721,6 +721,137 @@ margin-right: 30px;
 .certificate__block img{
   width: 100%;
 }
-
-
 /* ? маю питтаня  по цьому блоці з сертифікатом */
+
+/* certificate style.end */
+
+/* team style start */
+.team{
+  margin-top: 166px;
+  margin-bottom: 400px;
+}
+
+.team--caption{
+  margin-bottom: 8px;
+}
+
+.team__slider{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+/* ? не можу кружок не навести ховер  */
+.slider__btn{
+  max-width: 84px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.slider__btn--prev{
+  background: url(../img/icon/arrow.svg) no-repeat;
+  width: 18px;
+  height: 11px;
+  
+}
+
+.slider__btn--next{
+  background: url(../img/icon/arrow.svg) no-repeat;
+  width: 18px;
+  height: 11px;
+  margin-left: 24px;
+  transform: rotate(180deg);
+}
+
+.slider__btn--prev:hover{
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background: #FF3F3A;
+  color: #E5E8ED;
+}
+/* ? не можу кружок не навести ховер  */
+
+.card{
+  width: 285px;
+  height: 416px;
+  position: relative;
+}
+
+.card__photo{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #FFCF2D;
+  border-radius: 4px;
+}
+
+.card__photo img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  Width:245px;
+  Height:320px;
+}
+
+.card--body{
+  text-align: center;
+  margin-top: 16px ;
+}
+
+.card--title{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  margin-bottom: 4px;
+}
+
+.card--text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #787A80;
+}
+
+.card__socials{
+  display: flex;
+  position: absolute;
+  top: 300px;
+  left: 181px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 84px;
+  z-index: 3;
+  opacity: 0;
+}
+
+.card__socials:hover{
+  opacity: 1;
+}
+
+.card__socials--Facebook{
+  background: url(../img/icon/facebook.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  display: inline-block;
+}
+
+
+.card__socials--Instagram{
+  background: url(../img/icon/instagram.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  display: inline-block;
+
+}
+
+.card__socials--Linked{
+  background: url(../img/icon/linked-In.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+/* team style end */
