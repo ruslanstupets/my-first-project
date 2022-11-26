@@ -882,26 +882,58 @@ body {
 /* testimonial style start */
 
 .testimonial {
-  text-align: center;
+  /* position: relative; */
   background: #f4f5f7;
   padding-bottom: 100px;
 }
 
 .testimonial__caption {
   margin-bottom: 8px;
+  text-align: center;
 }
 .testimonial__title {
   margin-bottom: 60px;
+  text-align: center;
 }
+
+
+/* ? не можу зрозуміти як іх по центрі поствати слайд  можливо кожну окремо і спозіціонувати треба */
+.testimonial__slider {
+  display: flex;
+  justify-content: space-between;
+}
+.testimonia__slider--btn {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.testimonia__slider--btn:hover {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background: #ff3f3a;
+}
+.testimonia__slider--btn-left {
+  display: block;
+  margin: 0 auto;
+  transform: rotate(180deg);
+}
+.testimonia__slider--btn-right{
+  display: block;
+  margin: 0 auto;
+}
+/* ? не можу зрозуміти як іх по центрі поствати слайд  */
 
 .testimonial__content {
   width: 1020px;
   margin: 0 auto;
   background: #ffffff;
   box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08),
-    0px 30px 24px -10px rgba(154, 156, 165, 0.05),
-    0px 12px 10px -6px rgba(154, 156, 165, 0.04),
-    0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+  0px 30px 24px -10px rgba(154, 156, 165, 0.05),
+  0px 12px 10px -6px rgba(154, 156, 165, 0.04),
+  0px 4px 4px -4px rgba(30, 33, 44, 0.03);
   border-radius: 4px;
   padding-top:65px ;
   padding-left: 105px;
@@ -995,6 +1027,12 @@ body {
   align-self: flex-end;
 }
 
+.post-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .post-card{
   position: relative;
 }
@@ -1026,6 +1064,63 @@ body {
   left: 8px;
   transform: translateY(-50%);
 }
+
+.post-card__badge--play{
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  border-radius: 4px;
+  padding-top: 1px;
+  padding-right: 8px;
+  padding-bottom: 1px;
+  padding-left: 28px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.post-card__badge--play::before{
+  content: "";
+  display: block;
+  position: absolute;
+  background: url(../img/icon/Play.svg) no-repeat;
+  width: 16px;
+  height: 16px;
+  top:50%;
+  left: 8px;
+  transform: translateY(-50%);
+}
+
+.post-card__badge--files{
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  border-radius: 4px;
+  padding-top: 1px;
+  padding-right: 8px;
+  padding-bottom: 1px;
+  padding-left: 28px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.post-card__badge--files::before{
+  content: "";
+  display: block;
+  position: absolute;
+  background: url(../img/icon/Files.svg) no-repeat;
+  width: 16px;
+  height: 16px;
+  top:50%;
+  left: 8px;
+  transform: translateY(-50%);
+}
+
 
 .post-card__content {
   margin-top: 16px;
