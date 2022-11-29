@@ -1290,13 +1290,15 @@ margin-right: 12px;
 .footer-wrapper{
   display: flex;
   justify-content: space-between;
+  
 }
 
 .footer-wrapper{
   padding-top: 80px;
+  padding-bottom: 60px;
 }
 .information{
-    width: 279px;
+  width: 279px;
 }
 
 .information__brend img{
@@ -1331,16 +1333,132 @@ margin-right: 12px;
 }
 
 .navigation__item--link{
-font-weight: 400;
-font-size: 16px;
-line-height: 160%;
-color: #FFFFFF;
-opacity: 0.6;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #FFFFFF;
+  opacity: 0.6;
 }
 .navigation__item--link:hover{
-opacity: 1.6;
+  opacity: 1.6;
 }
 
+.icon-phone{
+  position: relative;
+  margin-left: 26px;
+}
+.navigation__item--hpohe::before{
+  position: absolute;
+  content: "";
+  top: 3px;
+  left: -24px;
+  width: 16px;
+  height: 16px;
+  background: #a21212;
+  background: url(../img/footer-icon/phone.svg) no-repeat;
+}
+
+.icon-imail{
+  position: relative;
+  margin-left: 24px;
+}
+
+
+.navigation__item--imail::before{
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: -24px;
+  width: 16px;
+  height: 16px;
+  background: #a21212;
+  background: url(../img/footer-icon/imail.svg) no-repeat;
+}
+
+.sing-up{
+  width: 286px;
+}
+
+.sing-up__form{
+  position: relative;
+  margin-bottom: 12px;
+}
+.sing-up__form--control{
+  
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  padding-right: 98px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.sing-up__form--control:hover{
+  opacity: 1.6;
+}
+
+.sing-up__form--arrow::after{
+  content: "";
+  position: absolute;
+  top: 14px;
+  right: 24px;
+  width: 16px;
+  height: 16px;
+  background: url(../img/footer-icon/arrow.svg) no-repeat;
+}
+.sing-up__form--text{
+  margin-top: 12px;
+  font-size: 10px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+/* ?  щось з беграудом не так включаю опасіті він стає як треба але спани не можу зробити білими */
+.copyright{
+  background: #FFFFFF;
+  /* opacity: 0.05; */
+} 
+
+.copyright-info{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.copyright-info span{
+  font-size: 12px;
+  line-height: 150%;
+}
+.copyright-info__reserved{
+  margin-right: 2px;
+}
+
+.copyright-info__made{
+  margin-right: 4px;
+}
+.copyright-info__studio{
+  margin-left: 24px;
+  position: relative;
+}
+
+.copyright-info__studio::after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -22px;
+  width: 16px;
+  height: 16px;
+  background: url(../img/footer-icon/Heart.svg) no-repeat;
+}
+
+.copyright-info__link:hover{
+  color: rgb(212, 0, 255);
+}
+
+.copyright-top{
+  margin-left: 825px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
 /* footer style end */
 
 
